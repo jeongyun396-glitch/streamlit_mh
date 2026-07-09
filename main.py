@@ -590,7 +590,8 @@ elif selected_day == '3일차 : 7월 8일(수)':
         
             model_url = st.text_input(
                 "Teachable Machine 모델 URL",
-                value="https://teachablemachine.withgoogle.com/models/pc8DpzFoM/",
+                #value="https://teachablemachine.withgoogle.com/models/pc8DpzFoM/",
+                value= 'https://teachablemachine.withgoogle.com/models/QyS52kkOl/',
                 placeholder="https://teachablemachine.withgoogle.com/models/xxxxxxxx/",
                 key="rps_model_url",
             )
